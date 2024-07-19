@@ -8,8 +8,8 @@ description: |
   {{ /is_upgrade_pr }}
   
   **Tickets**
-  {{ #jira_ids }}
+  This PR relates to the following JIRA IDs: {{ jira_ids }}
   - Fixes {{ . }}
-  {{ /jira_ids }}
+  {{ jira_ids }}
   
   To find more details, see the Snyk project [{{ snyk_project_name }}]({{ snyk_project_url }}) or reach out to tim.gowan@snyk.io
