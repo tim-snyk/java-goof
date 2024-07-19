@@ -12,4 +12,4 @@ description: |
   - Fixes {{ . }}
   {{ /jira_ids }}
   
-  To find more details, see the Snyk project [{{ snyk_project_name }}]({{ snyk_project_url }}) or reach out to :exasperated-hayley:
+  To find more details, see the Snyk project [{{ snyk_project_name }}]({{ snyk_project_url }}) or reach out to tim.gowan@snyk.io
